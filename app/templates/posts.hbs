@@ -1,0 +1,10 @@
+
+<section class="sub-nav">
+  {{#each post in data.children}}
+  <h4>{{post.data.title}}</h4>
+  {{/each}}
+</section>
+
+<section class="posts">
+{{outlet}}
+</section>

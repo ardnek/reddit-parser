@@ -1,3 +1,22 @@
 html, body {
   margin: 20px;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width:960px;
+  margin:0 auto;
+  overflow: visible;
+}
+
+nav {
+  background-image: url(public/reddit-logo.png);
+  border: 1px solid black;
+  padding: 8px;
+  word-spacing: 8em;
+  text-decoration: none;
 }
