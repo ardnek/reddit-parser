@@ -14,7 +14,7 @@ html, body {
 }
 
 nav {
-  background-image: url(public/reddit-logo.png);
+  background:url(public/reddit-logo.png) no-repeat;
   border: 1px solid black;
   padding: 8px;
   word-spacing: 8em;

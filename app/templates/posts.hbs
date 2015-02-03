@@ -1,7 +1,11 @@
 
 <section class="sub-nav">
   {{#each post in data.children}}
-  <h4>{{post.data.title}}</h4>
+  <h4>
+    <a {{bind-attr href=post.data.url}}>
+      {{post.data.title}}
+    </a>
+  </h4>
   {{/each}}
 </section>
 
